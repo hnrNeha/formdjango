@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" >
+    <title>submitted forms</title>
+    <body>
+    <form id="admindata">
+    <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+    <script src = 'https://code.jquery.com/jquery-3.6.0.min.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="firebase.js"></script>
+        <h1>click on the button to show submitted forms</h1>
+        <button type="button"  id="next"  onclick="show(this);">go</button>
+        <table class="table">
+            <thead>
+              <th>s.no</th>
+              <th>username</th>
+              <th>email</th>
+              <th>phone number</th>
+
+            </thead>
+
+             <tbody id="tbody">
+              <tr>
+                  <td> </td>
+              </tr>
+
+             </tbody>
+        </table>
+
+</form>
+
+</body>
+</html>
