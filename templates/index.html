@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sample Registration Page</title>
+
+    <style>
+        body {
+            background-color: rgb(230, 236, 240);
+        }
+
+        form {
+            padding: 10px;
+            line-height: 10px
+        }
+
+        main {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            background: beige;
+        }
+
+
+
+        p {
+            font-family: Open Sans;
+            color: black;
+            border-bottom: 1.50px solid black;
+            font-family: cursive;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <p style="color:rgb(69, 141, 10);
+        font-size:49.9px;
+        font-weight:bold;
+        text-align:center;"> Registration form</p>
+
+
+       <form  action="https://formsubmit.co/hnrneha123@gmail.com" method="post"  onsubmit="submitform()"  id="analysis">
+          <table align="center">
+
+          <tr>
+              <td><label>Name</label>
+              </td>
+              <td><input type="text" id="uname" name="uname" required/>
+              </td>
+          </tr>
+
+            <tr>
+                <td>
+                  <label>Birthday</label>
+                </td>
+                  <td><input type="date" id="bday" name="bday" required]>
+                  </td>
+            </tr>
+            <tr>
+                <td><label>Email</label>
+                </td>
+                <td><input type="email" id="email" name="email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>contact No.</label>
+                </td>
+                <td><input type="text" id="con-ph" name="telnum" required/>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><button type="submit" >submit</button></td>
+            </tr>
+
+
+      </table>
+
+</form>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+<script src="firebase.js"></script>
+</body>
+
+</html>
